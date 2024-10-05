@@ -1,14 +1,14 @@
-"use client"; // Enables client-side rendering for this component
+"use client";
 
-import { useState, useEffect } from "react"; // Import useState and useEffect hooks from React
+import { useState, useEffect } from "react";
 import {
   Card,
   CardHeader,
   CardTitle,
   CardDescription,
   CardContent,
-} from "@/components/ui/card"; // Import custom Card components
-import { Button } from "@/components/ui/button"; // Import custom Button component
+} from "@/components/ui/card";
+import { Button } from "@/components/ui/button"; 
 import {
   Table,
   TableHeader,
@@ -16,7 +16,7 @@ import {
   TableHead,
   TableBody,
   TableCell,
-} from "@/components/ui/table"; // Import custom Table components
+} from "@/components/ui/table"; 
 
 // Define the LapTime type
 type LapTime = number;
